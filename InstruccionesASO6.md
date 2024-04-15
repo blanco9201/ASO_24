@@ -170,7 +170,7 @@ Comprobar:
 groups usuario
 ~~~
 
-Añadir en /etc/pam.d/su:
+Añadir en /etc/pam.d/su (primero poner el sufficient y despues el required, este bloquea el analisis de las reglas siguientes):
 
 #Sólo los usuarios del grupo wheel pueden usar su:
 
